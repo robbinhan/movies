@@ -93,8 +93,8 @@ class ZhihuSpider(CrawlSpider):
                             headers = self.headers,
                             formdata = {
                             '_xsrf': xsrf,
-                            'email': '',
-                            'password': '',
+                            'email': '355966029@qq.com',
+                            'password': '50508372',
                             # 'captcha_type': 'cn'
                             'captcha': num
                             },
@@ -119,17 +119,3 @@ class ZhihuSpider(CrawlSpider):
 
         cursor.close()
         cnx.close()
-            
-    def parse_page(self, response):
-        print("parse_page")
-        print(response.text)
-        problem = Selector(response)
-        # print(problem.text())
-        item = ZhihuItem()
-        item['url'] = response.url
-        item['name'] = problem.css('.Feed-title').extract()
-        print(item['name'])
-        # item['title'] = problem.xpath('//h2[@class="zm-item-title zm-editable-content"]/text()').extract()
-        # item['description'] = problem.xpath('//div[@class="zm-editable-content"]/text()').extract()
-        # item['answer']= problem.xpath('//div[@class=" zm-editable-content clearfix"]/text()').extract()
-        return item
