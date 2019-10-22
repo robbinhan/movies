@@ -69,7 +69,7 @@ python-telegram-bot==10.1.0
 pytz==2018.5
 PyYAML==3.12
 queuelib==1.5.0
-requests==2.18.4
+requests==2.20.0
 requests-cache==0.4.13
 requests-toolbelt==0.8.0
 retrying==1.3.3
