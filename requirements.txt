@@ -63,7 +63,7 @@ PyQRCode==1.2.1
 PySocks==1.6.8
 pytest==3.8.0
 python-dateutil==2.7.3
-python-gnupg==0.4.3
+python-gnupg==0.4.4
 python-magic==0.4.15
 python-telegram-bot==10.1.0
 pytz==2018.5
