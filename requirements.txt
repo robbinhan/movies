@@ -67,7 +67,7 @@ python-gnupg==0.4.3
 python-magic==0.4.15
 python-telegram-bot==10.1.0
 pytz==2018.5
-PyYAML==3.12
+PyYAML==5.1
 queuelib==1.5.0
 requests==2.18.4
 requests-cache==0.4.13
