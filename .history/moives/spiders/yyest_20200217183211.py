@@ -9,7 +9,7 @@ class YyestSpider(scrapy.Spider):
 
     def start_requests(self):
         urls = [
-            'http://www.rrys2019.com/fresourcelist?channel=tv&area=%E7%BE%8E%E5%9B%BD'
+            'http://www.rrys2019.com//fresourcelist?channel=tv&area=%E7%BE%8E%E5%9B%BD'
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
