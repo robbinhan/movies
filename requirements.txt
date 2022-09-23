@@ -46,7 +46,7 @@ parsel==1.5.0
 peewee==3.5.1
 pillow>=6.2.0
 pluggy==0.7.1
-protobuf==3.6.1
+protobuf==3.18.3
 py==1.6.0
 pyasn1==0.4.4
 pyasn1-modules==0.2.2
