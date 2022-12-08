@@ -6,7 +6,7 @@ Automat==0.7.0
 beautifulsoup4==4.6.3
 bs4==0.0.1
 bypy==1.6.4
-certifi==2018.8.24
+certifi==2022.12.7
 cffi==1.11.5
 chardet==3.0.4
 conda==4.5.11
